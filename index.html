@@ -1,0 +1,79 @@
+<header> 
+<h1 id="blog-title">Mi Blog Personal - Irene</h1> 
+<input type="text" id="title-input" placeholder="Cambia el título del blog"> 
+</header> 
+<!-- Mensaje Animado --> 
+<div id="marquee-container"> 
+<p id="marquee">¡Bienvenido a mi blog! Disfruta navegando.       
+</div> 
+<!-- Descripción Personal --> 
+<section class="descripcion"> 
+<p id="descripcion"> 
+</p> 
+¡Hola! Soy Irene, tengo 25 años y me encanta viajar, disfruto mucho de visitar otros países. Me 
+defino como una persona simpática y organizada. ¡Espero que disfrutes mi blog! 
+</p> 
+<button id="toggle-descripcion">Mostrar/Ocultar descripción</button> 
+</section> 
+<!-- Tabla de Series y Películas Favoritas --> 
+<section class="top-favoritos"> 
+<table> 
+<tr> 
+<th>Top 3 Series</th> 
+<th>Top 3 Películas</th> 
+</tr> 
+<tr> 
+<td>Mindhunter</td> 
+<td>Spirit</td> 
+</tr> 
+<tr> 
+<td>La Casa de Papel</td> 
+<td>Sleepy Hollow</td> 
+</tr> 
+<tr> 
+<td>Gambito de dama</td> 
+<td>El Resplandor</td> 
+</tr> 
+</table> 
+<button id="invert-table">Invertir Orden</button>  
+</section> 
+<!-- Imagen Representativa --> 
+<section class="imagen-hobby"> 
+<img 
+id="blog-image" 
+src="https://images.ecestaticos.com/hfGE8eyl6ZLdAnxitOPOPtuCLlM=/0x0:2121x1414/1200x900
+ /filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F47e%2F9eb%2F77d%2F47e9eb
+ 77d0fefdfdeee960de4ba13aeb8.jpg" 
+alt="Imagen de mi hobby"> 
+<div> 
+<button id="like-button">   
+Me gusta (<span id="like-count">0</span>)</button> 
+<button id="rotate-image">Rotar Imagen</button> 
+<button id="zoom-in">Aumentar</button> 
+<button id="zoom-out">Disminuir</button> 
+</div> 
+</section> 
+<!-- Formulario de Contacto --> 
+<section class="formulario-contacto"> 
+<h2>¡Contáctame!</h2> 
+<form id="contact-form"> 
+<label for="nombre">Nombre:</label> 
+<input type="text" id="nombre" name="nombre" required> 
+<label for="serie-favorita">Serie Favorita:</label>  
+<select id="serie-favorita" name="serie-favorita"> 
+<option>Mindhunter</option> 
+<option>La Casa de Papel</option> 
+<option>Gambito de dama</option> 
+</select> 
+<label for="comentario">Comentario o Sugerencia:</label> 
+<textarea id="comentario" name="comentario"></textarea> 
+<p>Palabras: <span id="word-count">0</span></p> 
+<button type="submit">Enviar</button> 
+</form> 
+</section> 
+<!-- Pie de Página --> 
+<footer> 
+<p>Selecciona un color de fondo:</p> 
+<input type="color" id="color-picker"> 
+<button id="toggle-mode">Modo Claro/Oscuro</button> 
+</footer>

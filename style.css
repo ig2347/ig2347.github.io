@@ -1,0 +1,113 @@
+/* Estilo general para el fondo y el color del texto */  
+body {  
+background-color: #f0f8ff; /* Fondo suave */  
+color: #333; /* Color de texto contrastante */  
+font-family: Arial, sans-serif;   
+margin: 0;  
+padding: 20px;  
+}  
+/* Estilo del Título */  
+header h1 {  
+font-family: 'Comic Sans MS', cursive;  
+font-size: 48px;  
+text-align: center;  
+color: #333;  
+margin-top: 0;  
+}  
+/* Estilo del Párrafo */  
+.descripcion p {  
+font-size: 16px;  
+text-align: justify;  
+max-width: 600px;  
+margin: 0 auto 20px;  
+}  
+/* Estilo de la Tabla */  
+.top-favoritos table {  
+width: 60%;  
+margin: 0 auto 20px;  
+border-collapse: collapse;  
+}  
+.top-favoritos th, .top-favoritos td {  
+border: 2px solid #333;  
+padding: 10px;  
+text-align: center;  
+}  
+.top-favoritos tr:nth-child(even) {  
+background-color: #f2f2f2; /* Color alternado para filas pares */  
+}  
+/* Estilo de la Imagen */  
+.imagen-hobby img {  
+display: block;  
+margin: 0 auto;  
+max-width: 300px;  
+width: 100%;  
+height: auto;  
+border-radius: 10px;  
+}  
+/* Estilo del Formulario */  
+.formulario-contacto h2 {  
+text-align: center;  
+}  
+.formulario-contacto form {  
+max-width: 400px;   
+margin: 0 auto;  
+display: flex;  
+flex-direction: column;  
+}  
+.formulario-contacto label {  
+margin-top: 10px;  
+font-weight: bold;  
+}  
+.formulario-contacto input,  
+.formulario-contacto select,  
+.formulario-contacto textarea {  
+padding: 8px;  
+border: 1px solid #ccc;  
+border-radius: 5px;    
+background-color: #f9f9f9;  
+margin-top: 5px;  
+}  
+.formulario-contacto button {  
+padding: 10px;  
+margin-top: 15px;  
+background-color: #007bff;  
+color: white;  
+border: none;  
+border-radius: 5px;  
+cursor: pointer;  
+font-size: 16px;  
+}  
+.formulario-contacto button:hover {  
+background-color: #0056b3; /* Cambio de color al pasar el ratón */  
+}  
+/* Agregado para funcionalidad */ 
+#marquee-container { 
+overflow: hidden; 
+white-space: nowrap; 
+margin: 20px auto; 
+background-color: #007bff; 
+color: white; 
+padding: 10px; 
+} 
+#marquee { 
+display: inline-block; 
+animation: scroll 10s linear infinite; 
+} 
+@keyframes scroll { 
+from { 
+transform: translateX(100%); 
+} 
+to {  
+transform: translateX(-100%); 
+} 
+} 
+.hidden { 
+display: none; 
+} 
+.dark-mode { 
+background-color: #333; 
+color: #f0f8ff; 
+} 
+.zoomed { 
+transform: scale(1.2); 
+}
